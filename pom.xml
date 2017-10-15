@@ -4,9 +4,12 @@
 
     <groupId>ru.tcezar.test</groupId>
     <artifactId>test-module</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.3-SNAPSHOT</version>
     <scm>
-        <connection>scm:https://github.com/tcezar/testmodule.git</connection>
+        <connection>scm:git:https://github.com/tcezar/testmodule.git</connection>
+        <developerConnection>scm:git:https://github.com/tcezar/testmodule.git</developerConnection>
+        <tag>testModule-0.1.x</tag>
+        <url>https://github.com/tcezar/testmodule.git</url>
     </scm>
     <build>
         <plugins>
