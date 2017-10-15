@@ -1,14 +1,15 @@
 package ru.tcezar.testmodule.test;
 
-import org.junit.jupiter.api.Test;
+import junit.framework.TestCase;
+import org.junit.Test;
 
 /**
  * Created by nat on 15.10.17.
  * for student test
  */
-class SimpleTest {
+public class SimpleTest extends TestCase {
     @Test
-    void test1(){
+    public void test1(){
         System.out.println("succes");
     }
 }
