@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hackerrank/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/hackerrank/Algorithms/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackerrank/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/hackerrank/DataStructures/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackerrank/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank/hackerrank.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmodule.iml" filepath="$PROJECT_DIR$/testmodule.iml" />
     </modules>
   </component>
