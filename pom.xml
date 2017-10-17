@@ -24,6 +24,7 @@
     </properties>
     <modules>
         <module>hackerrank</module>
+        <module>books</module>
     </modules>
     <build>
         <plugins>
