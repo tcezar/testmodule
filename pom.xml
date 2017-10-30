@@ -11,6 +11,22 @@
         <tag>testModule-0.1.x</tag>
         <url>https://github.com/tcezar/testmodule.git</url>
     </scm>
+    <repositories>
+        <repository>
+            <id>my-releases</id>
+            <url>file://${project.basedir}/releases</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>file://${project.basedir}/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>file://${project.basedir}/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
     <properties>
         <version-maven-plugin.version>2.5</version-maven-plugin.version>
         <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
